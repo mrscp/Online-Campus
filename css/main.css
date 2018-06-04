@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.hide, .pnt_div{
+  display: none;
+}
+.show{
+  display: block;
+}
+.internal{
+   margin-top:64px;
+}
+.result-element{
+  margin-bottom: 16px;
+  height: 100px;
+}
+.navbar-default{
+  background-color: #faebcc;
+  border-color: #fcf8e3;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: #fcf8e3;
+}
+.notification .badge{
+  color: #f44242;
+  margin-top: -15px;
+  margin-left: -5px;
+  padding: 0px;
+  z-index: -99999999;
+  background: transparent;
+}
+.notification{
+  padding: 15px 10px;
+}
+.notification a{
+  text-decoration: none;
+  color: #777;
+}
+#message-send-form{
+    margin-top: 20px;
+}
+.profile-btn{
+  margin-right: 10px;
+}
